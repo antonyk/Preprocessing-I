@@ -57,3 +57,18 @@ html, body {
     height: 100%;
 }
 
+@main-color: #E0FC00;
+@beta-color: #F2772B;
+@help-color: #22B253;
+@black-shade: #131313;
+@grey-light: #F2F2F2;
+@grey-dark: #E0E0E0;
+
+.bordered(@c) {
+	border: 1px solid @c;
+}
+
+body {
+	.bordered(@help-color);
+}
+
